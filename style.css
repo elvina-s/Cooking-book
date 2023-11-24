@@ -1,0 +1,186 @@
+body {
+    background-color: #AACB73;
+    margin: 0;
+   }
+   
+   .container {
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+   
+   .heading {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 15px;
+   }
+   
+   h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #080C00;
+    margin: 0;
+   }
+   
+   .input-field {
+     display: flex;
+     justify-content: center;
+     padding-top: 15px;
+     padding-bottom: 30px;
+   }
+   
+   #search {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 22px;
+     padding: 10px;
+     background-color: #AACB73;
+     border: 2.8px solid #FFFFE8;
+     border-radius: 10px;
+     width: 600px;
+     margin: auto;
+   }
+   
+   a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #FFFFE8;
+    text-decoration: none;
+    display: flex;
+    text-wrap: wrap;
+   }
+   
+   a:hover {
+      color: #080C00;
+   }
+   
+   .recipes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     margin: 0;
+   }
+   
+   .recipe {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+     margin: 0;
+   }
+   
+   ::placeholder {
+     color: #FFFFE8;
+   }
+   
+   :focus {
+     color: #FFFFE8;
+   }
+   
+   img {
+     border-radius: 10px;
+   }
+   
+   @media all and (max-width: 990px) {
+       .container {
+     margin-right: 30px;
+     margin-left: 30px;
+     margin-top: 30px;
+   }
+   }
+   
+   @media all and (max-width: 910px) {
+     img {
+       height: 450px;
+     }
+     
+       .container {
+     margin-right: 10px;
+   }
+     
+     .recipe {
+    padding: 15px;
+   }
+   }
+   
+   @media all and (max-width: 825px) {
+     img {
+       height: 400px;
+     }
+     
+     a {
+        font-size: 22px;
+     }
+   }
+   
+   @media all and (max-width: 735px) {
+     .recipe {
+    padding: 5px;
+   }
+     
+       img {
+       height: 350px;
+     }
+   }
+   
+   @media all and (max-width: 680px) {
+     #search {
+       font-size: 20px;
+       width: 380px;
+     }
+     
+     h1 {
+       font-size: 28px;
+     }
+     
+         .container {
+     margin-right: 0px;
+     margin-left: 0px;
+   }
+     
+     .heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
+     
+     .input-field {
+     padding-top: 15px;
+     padding-bottom: 50px;
+   } 
+   }
+   
+   @media all and (max-width: 470px) {
+     #search {
+       font-size: 18px;
+       width: 360px;
+     }
+     
+     h1 {
+       font-size: 26px;
+     }
+     
+       a {
+        font-size: 20px;
+     }
+   }
+   
+   @media all and (max-width: 420px) {
+     #search {
+       font-size: 18px;
+       width: 340px;
+     }
+     
+     h1 {
+       font-size: 26px;
+     }
+     
+       a {
+        font-size: 20px;
+     }
+     
+       .heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   }
