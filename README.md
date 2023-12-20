@@ -1,8 +1,9 @@
 # Cooking book
-
 ## About
 
 It is a web application, where you can choose a recipe out of a collection and learn how to cook a certain meal.
+
+<img width="1440" alt="Снимок экрана 2023-12-20 в 15 27 09" src="https://github.com/elvina-s/Cooking-book/assets/149134113/834de311-1117-444e-84c8-b6531b10c159">
 
 ## What is it made with?
 
